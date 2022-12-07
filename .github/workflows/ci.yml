@@ -29,9 +29,8 @@ jobs:
 
       - name: yarn build
         run: yarn build
-
-      - name: release
-        if: ${{ endsWith(github.ref, '/main') }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release
+      # - name: release
+      #   if: ${{ endsWith(github.ref, '/main') }}
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: npx semantic-release
