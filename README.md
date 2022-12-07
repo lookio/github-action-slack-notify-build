@@ -145,3 +145,7 @@ In order to use your Slack App with this GitHub Action, be sure to enable the fo
 ## License
 
 The scripts and documentation in this project are released under the [Apache 2.0 License](LICENSE).
+
+## Local Development
+
+Coming soon...
